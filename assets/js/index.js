@@ -3,19 +3,9 @@ $(document).ready(function(){
 var $container = $('#post-container');
 // initialize
 $container.masonry({
-  //columnWidth: 250,
   gutter: 0,
   itemSelector: '.post'
 });
-
-// $("#arrow-up-red").mousedown(function() {
-//     $("#arrow-up-red").css("opacity", "1");
-//  })
-//  .mouseup(function() {
-//     $("#arrow-up-red").css("opacity", "0").fadeOut("slow");
-//  });
-
-//color scheme: #3b62ad
 
 $(".arrow-up").click(function() {
     $(".arrow-up-red", this).fadeIn().delay(200).fadeOut();
@@ -52,12 +42,6 @@ $(".arrow-container").mouseleave(function() {
     $(this, ".arrow-container").css("opacity", "0");
     $(".overlay", this).css("opacity", "0");
 });
-
-// $("#menu-icon").hover(function() {
-//     $("#expand").css("opacity", "1");
-// }, function() {
-//     $("#expand").css("opacity", "0");
-// });
 
 });
 
