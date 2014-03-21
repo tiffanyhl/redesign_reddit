@@ -8,70 +8,21 @@ body {
     top: 0px;
     width: 100%;
     height: 50px;
-    /* background-color: #547bc7; */
-    z-index: 90;
-    /* box-shadow: 0px 2px 5px #555; */
-}
-#logo-container {
-    width: 142px;
-    height: 50px;
     background-color: #547bc7;
-}
-#logo {
-    height: 95%;
+    z-index: 90;
 }
 .menu {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
-    /* background-color: #547bc7; */
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 142px;
-    /* box-shadow: 0px 2px 5px #555; */
+    padding: 10px;
 }
-#menu-icon {
-	width: 40px;
-	height: 20px;
-	padding: 15px 5px;
-	background-color: #547bc7;
-	border-left: 1px solid #8990c7;
-}
-#expand {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 50px;
-    background-color: #547bc7;
-    opacity: 0;
-    transition: 0.2s;
-    z-index: 10;
-}
-#register {
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    border-radius: 4px;
-    position: absolute;
-    right: 17%;
-    margin: 10px 0px;
-}
-#expand:hover {
-	width: 100%;
-	opacity: 1;
-}
-
 .post {
     width: 250px;
     height: 300px;
     background-color: #7a98d4;
     margin-bottom: 30px;
-    margin-left: 50px;
-    box-shadow: 3px 3px 5px #555;
 }
 .title {
     height: 50px;
@@ -203,8 +154,5 @@ body {
     background-color: white;
 }
 #post-container {
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    margin: 100px 60px;
 }

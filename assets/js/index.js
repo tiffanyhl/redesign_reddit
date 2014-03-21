@@ -3,32 +3,28 @@ $(document).ready(function(){
 var $container = $('#post-container');
 // initialize
 $container.masonry({
-  gutter: 0,
+  columnWidth: 80,
   itemSelector: '.post'
 });
 
+// $("#arrow-up-red").mousedown(function() {
+//     $("#arrow-up-red").css("opacity", "1");
+//  })
+//  .mouseup(function() {
+//     $("#arrow-up-red").css("opacity", "0").fadeOut("slow");
+//  });
+
 $(".arrow-up").click(function() {
-    $(".arrow-up-red", this).fadeIn().delay(200).fadeOut();
+    $(".arrow-up-red", this).fadeIn().delay(300).fadeOut();
 });
 $(".arrow-up").click(function() {
     modify_qty(1);
 });
 
 $(".arrow-down").click(function() {
-    $(".arrow-down-red", this).fadeIn().delay(200).fadeOut();
+    $(".arrow-down-red", this).fadeIn().delay(300).fadeOut();
 });
 $(".arrow-down").click(function() {
-	// var id;
-// 	var par = this.parentNode;
-// 	var elements = document.getElementsByName( 'qty' );
-// 	for (var e in elements) 
-// 	{
-// 		if (e.parentNode === par) {
-// 		    id = new String(e);
-// 		}
-// 	}
-	
-	
     modify_qty(-1);
 });
 
@@ -42,6 +38,7 @@ $(".arrow-container").mouseleave(function() {
     $(this, ".arrow-container").css("opacity", "0");
     $(".overlay", this).css("opacity", "0");
 });
+
 
 });
 

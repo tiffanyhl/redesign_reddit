@@ -72,7 +72,7 @@ body {
     margin-top: -2px;
     position: absolute;
 }
-.submit-container {
+.submit-containerfirst {
     width: 75px;
     height: 20px;
     padding: 5px 5px;
@@ -83,7 +83,7 @@ body {
     box-shadow: 0px 0px 5px white;
     border-radius: 5px;
 }
-#submit {
+#submitfirst {
     position: absolute;
     letter-spacing: 0.8px;
     font-size: 14px;
@@ -108,7 +108,7 @@ body {
     font-size: 15px;
     letter-spacing: 0.5px;
 }
-#expand {
+/*#expand {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -118,7 +118,22 @@ body {
     opacity: 0;
     transition: 0.2s;
     z-index: 10;
+
+#register {
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    right: 17%;
+    margin: 10px 0px;
+}*/
+/* 
+#expand:hover {
+	width: 100%;
+	opacity: 1;
 }
+ */
 
 .post {
     width: 250px;
@@ -129,17 +144,17 @@ body {
     box-shadow: 3px 3px 5px #555;
 }
 .title {
-    width: 200px;
+    width: 220px;
     height: 50px;
     position: absolute;
     top: 50%;
     margin-top: -25px;
     color: white;
-    font-family: Open Sans;
-    letter-spacing: 1px;
+    font-family: Poiret One;
+    letter-spacing: 2px;
     line-height: 25px;
     text-align: center;
-    padding: 0px 25px;
+    padding: 0px 15px;
 }
 .pic-title {
     height: 50px;
@@ -222,14 +237,15 @@ body {
     position: absolute;
     color: white;
     text-align: center;
-    font-family: Open Sans;
-    letter-spacing: 1px;
+    font-family: Poiret One;
+    letter-spacing: 2px;
     top: 0px;
     /* background-color: #547bc7; */
     background-color: #8990c7;
     /* opacity: 0.9; */
     margin: 15px;
 }
+
 .title-only-bg {
     width: 220px;
     height: 270px;
@@ -287,3 +303,236 @@ body {
     margin-right: auto;
     width: 90%;
 }
+
+#thread {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#thread-post-container {
+    position: relative;
+    width: 800px; 
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px #547bc7;
+}
+
+.thread-image {
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+    float: left;
+}
+
+#thread-post {
+    height: 220px;
+    width: 550px;
+    margin-top: 15px;
+    float: left;
+    font-family: Arial;
+    position: relative;
+    line-height: 1.5;
+}
+
+#thread-post-title {
+    position: absolute;
+    color: Black;
+    font-weight: 900; 
+    font-size: 18;
+    text-align: left;
+    letter-spacing: 1px;
+    top: 0px;
+    border-bottom: 1px solid #222;
+}
+
+#thread-post-description {
+    position: absolute;
+    margin-top: 15px;
+    height: 100%;
+    width: 535px;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 14;
+}
+
+#thread-post-details {
+    font-size: 12px;
+    font-family: Arial;
+    color: #999;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+#thread-author {
+    color: #547bc7;
+}
+
+#thread-post-extra {
+    position: relative;
+    word-spacing: 10px;
+    width: 795;
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#post-menu {
+    float: right;
+    margin-right: 5px; 
+    font-weight: 600;
+}
+
+.gold {
+    word-spacing: 0;
+    color: #edca10;
+    font-weight: 500;
+}
+
+#comment-section {
+    position: relative;
+    border-top: dotted 1px #777;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#comment-header {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: Arial;
+    font-size: 16;
+    font-weight: 600;
+}
+
+.button-element {
+    background-color: #547bc7;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+#submit-comment-container {
+    position: relative;
+}
+
+.submit-header {
+    font-family: Arial;
+    font-size: 14;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#submit-box {
+    height: 110px;
+    width: 500px;
+    border: solid 1px #000;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: inset 0 0 4px #888;
+}
+
+#submit {
+    margin-top: 5px;
+    position: relative;
+    vertical-align: middle;
+}
+
+#submit-button {
+    vertical-align: middle;
+    padding-bottom: 2px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+#comment-container {
+    position: relative;
+    margin-top: 20px;
+    width: 80%;
+    height: 200px;
+}
+
+#vote-button-container {
+    position: relative;
+    padding: 0px 2px;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+#arrow {
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #AAA;
+    border-radius: 3px;
+}
+
+#votes {
+    font-family: Arial;
+    font-weight: 600;
+    text-align: center;
+    margin: 2px 0px;
+}
+
+#comment {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 60px;
+    margin-left: 2px;
+
+    padding: 2px;
+}
+
+#header {
+    position: absolute;
+    padding: 3px;
+    top: 0;
+    left: 2;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 12;
+    border-bottom: solid 1px #999;
+}
+
+#comment-expand {
+    height: 12px;
+    width: 12px;
+    float: left;
+}
+
+#comment-author {
+    color: #547bc7;
+    margin-left: 5px; 
+    float: left;
+    vertical-align: middle;
+}
+
+#comment-details {
+    float: left;
+    margin-left: 5px;
+    color: #999;
+    font-weight: 500;
+}
+
+#comment-box {
+    position: relative;
+    top: 25;
+    width: 485;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 14;
+    font-weight: 200;
+    text-align: left;
+}
+
