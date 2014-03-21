@@ -1,0 +1,173 @@
+body {
+	padding: 0px 0px;
+	margin: 0px;
+}
+#bground {
+	min-width: 100%;
+	min-height: 100%;
+
+	width: 100%;
+	height: 100%;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+
+}
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 55px;
+    z-index: 100;
+    box-shadow: 0px 1px 5px #555;
+}
+#logo-container {
+    width: 162px;
+    height: 55px;
+    background-color: #547bc7;
+}
+#logo {
+    height: 90%;
+}
+.menu {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #547bc7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 162px;
+    /*box-shadow: 0px 2px 5px #555;*/
+}
+#menu-icon {
+    width: 18px;
+    height: 12px;
+    padding: 9px 8px;
+    margin-left: 15px;
+    margin-top: 18px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 7px;
+    position: absolute;
+}
+
+.search-container{
+	background-color: whitesmoke;
+	width: 150px;
+	height: 12px;
+	padding: 9px 9px;
+	margin-left: 80px;
+	margin-top: 18px;
+	border-radius: 5px;
+	position: absolute;
+}
+#search-bar {
+	width: 18px;
+	height: 18px;
+	margin-left: 134px;
+	margin-top: -3px;
+	border-radius: 5px;
+	position: absolute;
+}
+#search{
+	color: gray;
+	font-family: sans-serif;
+	font-size: 14px;
+	letter-spacing: 0px;
+	margin-bottom: 10px;
+	margin-top: -2px;
+	position: absolute;
+}
+.submit-container {
+	width: 75px;
+	height: 20px;
+	padding: 5px 5px;
+	background-color: #104aa4;
+	position: absolute;
+	right: 33%;
+	top: 18px;
+	box-shadow: 0px 0px 5px white;
+	border-radius: 5px;
+}
+#submit {
+	position: absolute;
+	letter-spacing: 0.8px;
+	font-size: 14px;
+	top: 21%;
+	font-weight: 500;
+	right: 16%;
+	font-family: Helvetica Neue;
+	color: whitesmoke ;
+}
+
+#register {
+    position: absolute;
+    right: 24%;
+    top: 25px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+#signin {
+    position: absolute;
+    right: 17%;
+    top: 25px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.text {
+	z-index: 10;
+	font-family: Open Sans, Helvetica Neue, Arial;
+	font-size: 20px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: white;
+	letter-spacing: 0.5px;
+}
+.text-contain {
+	width: 350px;
+	height: 150px;
+	background-color: #cdeeff;
+	opacity: 0.7;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+#first {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	font-weight: bold;
+	font-size: 45px;
+	color: #225588;
+}
+#second {
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	color: #336699;
+}
+#explore {
+	position: absolute;
+	top: 88%;
+	left: 47%;
+	color: #336699;
+	font-size: 18px;
+}
+#contain {
+	width: 10px;
+	height: 20px;
+}
+#arrow {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 92%;
+	left: 51%;
+}
